@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s;
+  }
+
+  .background-card {
+    background: linear-gradient(rgb(0, 0, 0, 0) -90%, rgb(4, 0, 1, 10));
+  }
+
+  .icon-aument {
+    font-size: 24px;
+  }
+}
